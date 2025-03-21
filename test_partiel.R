@@ -10,8 +10,8 @@ library(FactoMineR)
 
 
 # === CHARGEMENT DES DONNÉES ===
-UPENN <- read.table("/Users/pierrequintindekercadio/Documents/Documents - Mac/dossier sans titre/UPENN.txt")
-GT <- read.table("/Users/pierrequintindekercadio/Documents/Documents - Mac/dossier sans titre/GT.txt")
+UPENN <- read.table("data/UPENN.txt")
+GT <- read.table("data/GT.txt")
 
 # === PRÉTRAITEMENT ===
 # On enlève ID (colonne 1) et on applique log sur la variable réponse
